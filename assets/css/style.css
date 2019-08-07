@@ -1,0 +1,30 @@
+*{
+    color: #777777
+}
+body{
+
+}
+content{
+    width: 960px;
+    margin: auto;
+}
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+nav{
+
+}
+section{
+
+}
+article{
+    
+}
+footer{
+    background-color: #666666;
+}
+content{
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
