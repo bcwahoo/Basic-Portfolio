@@ -3,41 +3,48 @@
 }
 
 body{
-    width: auto;
-    color: #777777;
-    font-size: 24px;
-    line-height: 32px;
+    margin:0;
+    padding: 0;
     background-image: url("../images/email-pattern.png");
     background-repeat:repeat;
+    color: #777777;
+    font-size: 16px;
+    line-height: 32px;
+    
 }
 
 .container{
     width: 960px;
     margin: auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+
 }
 
 header{
-    width: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #ffffff;
-    border-color: #cccccc;
+    border-bottom: 2px solid #cccccc;
     clear: both;
 }
 
 .navbar{
     width: 960px;
+    margin: 0;
+}
+
+nav.main{    
+    padding: 5px;
+    color: #666666;
     float: right;
 }
 
-a.navbar{
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-    color: white;
-}
-
 .logo{
-    width: 300px;
+    width: 250px;
     padding: 20px;
+    margin-bottom: 0;
     color: #ffffff;
     font-size: 24px;
     background-color: #4aaaa5;
@@ -45,18 +52,14 @@ a.navbar{
     float: left;
 }
 
-.content{
-    width: 960px;
-    margin: 20px;
-    clear: both;    
-}
-img.me{
+img#me{
     width: 200px;
     padding: 5px;
     border: 1px solid #dddddd;
     box-shadow: 0 0 2px #888888;
     float: left
 }
+
 footer{
     clear: both;
     width: 100%;
