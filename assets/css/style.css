@@ -37,12 +37,20 @@ header {
     width: 960px;
     margin: auto;
 }
-
-nav#main {
+nav {
+    margin: auto;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
     color: #666666;
     float: right;
+}
+nav a:link, nav a:-webkit-any-link  {
+    color: #666666;
+    text-decoration: none;
+    padding: 25px 0 25px 25px;
+}
+nav a:hover { 
+    border-bottom: 2px solid #4aaaa5;
 }
 
 .logo {
