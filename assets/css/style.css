@@ -1,40 +1,58 @@
-*{
-    color: #777777
-}
+*{box-sizing: border-box;}
 body{
-
-}
-content{
-    width: 960px;
-    margin: auto;
+    width: auto;
+    color: #777777;
+    font-size: 24px;
+    line-height: 32px;
+    background-image: url("../images/email-pattern.png");
+    background-repeat:repeat;
 }
 .container{
     width: 960px;
+    margin: auto;
 }
 header{
+    width: 100%;
     background-color: #ffffff;
     border-color: #cccccc;
+    clear: both;
 }
-nav{
+.navbar{
+    width: 960px;
     float: right;
 }
-section{
+a.navbar{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;}
+.logo{
+    width: 300px;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
 
 }
-article{
+.content{
+    width: 960px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 3px solid #740b0b
+    clear: both;
     
 }
 img.me{
-    width: 176px;
+    width: 200px;
     padding: 5px;
     border: 1px solid #dddddd;
     box-shadow: 0 0 2px #888888;
-    float: left;
+    float: left
 }
 footer{
+    clear: both;
+    width: 100%;
     background-color: #666666;
-}
-content{
-    background-color: #ffffff;
-    border-color: #dddddd;
 }
